@@ -6,3 +6,5 @@
 - Every change comes with a pytest test. Never delete or weaken a test to make it pass.
 - Never use `--no-verify` or disable a linter rule without telling me why.
 - Keep changes small: one concern per change. Explain the plan before writing code.
+- Run everything with `uv run`. Tests: `uv run pytest`. Lint: `uv run ruff check`.
+- Explain your plan and wait for my approval before editing files.
